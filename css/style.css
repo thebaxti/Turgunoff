@@ -969,7 +969,7 @@ footer {
     }
 
     .togle {
-        bottom: -40%;
+        bottom: -7%;
         right: 43%;
     }
 
@@ -1089,7 +1089,7 @@ footer {
 
     .togle {
         right: 42%;
-        bottom: 20%;
+        bottom: -5%;
     }
 
     .togle span:nth-child(1) {
@@ -1119,16 +1119,11 @@ footer {
         font-size: 24px;
         line-height: 30px;
     }
-
-    .leftItems .time {
-        font-size: 25px;
-        line-height: 65px;
-    }
-
+    
     .sc1 h3 {
         font-size: 30px;
         line-height: 34px;
-        padding-top: 65px;
+        padding-top: 45px;
         padding-bottom: 25px;
     }
 
@@ -1185,9 +1180,9 @@ footer {
 
 @media(max-width:500px) {
     .togle {
-        right: 40%;
-        bottom: 20%;
-    }
+    right: 41%;
+    bottom: -10%;
+}
 
     .leftItems h1 {
         font-size: 20px;
@@ -1195,8 +1190,9 @@ footer {
     }
 
     .leftItems .time {
-        font-size: 20px;
-        line-height: 24px;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 15px;
     }
 
     .Words01 p {
@@ -1251,8 +1247,9 @@ footer {
 
 @media(max-width:450px) {
     .togle {
-        right: 39%;
-    }
+        right: 40%;
+        bottom: -8%;
+    }}
 
     .leftItems h1 {
         font-size: 18px;
@@ -1283,15 +1280,15 @@ footer {
 }
 
 @media(max-width:400px) {
-    .togle {
-        bottom: 20%;
+  .togle {
         right: 38%;
+        bottom: -8%;
     }
 
     .sc1 h3 {
         font-size: 24px;
         line-height: 30px;
-        padding-top: 100px;
+        padding-top: 70px;
         padding-bottom: 25px;
     }
 
@@ -1307,11 +1304,14 @@ footer {
     .advantages {
         padding-bottom: 40px;
     }
+    .modalll a {
+        font-size: 18px;
+    }
 }
 
 @media(max-width:350px) {
     .togle {
-        right: 37%;
+        right: 36%;
     }
 
     .Img01 img {
@@ -1330,7 +1330,7 @@ footer {
     }
 
     .togle {
-        bottom: 12%;
+        bottom: -8%;
         right: 35%;
     }
 
@@ -1338,7 +1338,14 @@ footer {
         font-size: 18px;
         line-height: 22px;
     }
-
+    .leftItems .time {
+        font-size: 30px;
+        line-height: 34px;
+        margin-top: 10px;
+    }
+    .modalll a {
+    font-size: 15px;
+}
 }
 
 @media(max-width:281px) {
